@@ -4,6 +4,7 @@ pipeline {
 		stage('Build') {
 			steps {
 			sh "docker build -t node-js-sample ."
+			sh "bash./shellscript.sh"
 			}
 		}
   		stage('Deploy') {
