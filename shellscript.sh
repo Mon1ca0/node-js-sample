@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the name for the Docker container
-CONTAINER_NAME="nodejs-app"
+CONTAINER_NAME="node-js-sample"
 
 # Check if a container with the specified name is running
 if [ "$(docker ps -q -f name=$CONTAINER_NAME)" ]; then
